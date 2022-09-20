@@ -15,6 +15,12 @@ library(blogdown)
 
 ### File -> New Project -> New Directory
 
-blogdown::new_site(theme = "lxndrblz/anatole")
+# Instalar template hugo -------------------------------------------------------------------------------------------------------------------
 
+blogdown::install_hugo('hugo_extended_0.97.3_windows-64bit.zip')
+blogdown::new_site()
+
+# Serve site -------------------------------------------------------------------------------------------------------------------------------
+
+blogdown::serve_site()
 
