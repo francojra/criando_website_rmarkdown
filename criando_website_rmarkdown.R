@@ -17,14 +17,19 @@ library(blogdown)
 
 # Instalar template hugo -------------------------------------------------------------------------------------------------------------------
 
+### Tema default:
 blogdown::install_hugo('hugo_extended_0.97.3_windows-64bit.zip')
+
+### Outros temas:
+### https://themes.gohugo.io/
+
+# Criando o site ---------------------------------------------------------------------------------------------------------------------------
+
+blogdown::new_site(".", theme = "nunocoracao/blowfish")
 
 # Serve site -------------------------------------------------------------------------------------------------------------------------------
 
-blogdown::new_site()
-blogdown::serve_site()
-blogdown::stop_server()
-
-# Mudando o tema do site -------------------------------------------------------------------------------------------------------------------
+blogdown::serve_site() # Iniciar a página do site
+blogdown::stop_server() # Cancelar a página do site
 
 
