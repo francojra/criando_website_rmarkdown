@@ -11,4 +11,4 @@
 3. Instalar template hugo;
 4. Criando o site;
 5. Serve site;
-6. Edição do site
+6. Edição do site.
