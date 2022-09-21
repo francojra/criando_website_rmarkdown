@@ -25,6 +25,7 @@ blogdown::install_hugo('hugo_extended_0.97.3_windows-64bit.zip')
 
 # Criando o site ---------------------------------------------------------------------------------------------------------------------------
 
+### Criando site com tema Blowfish
 blogdown::new_site(".", theme = "nunocoracao/blowfish")
 
 # Serve site -------------------------------------------------------------------------------------------------------------------------------
@@ -32,4 +33,8 @@ blogdown::new_site(".", theme = "nunocoracao/blowfish")
 blogdown::serve_site() # Iniciar a página do site
 blogdown::stop_server() # Cancelar a página do site
 
+# Edição do site ---------------------------------------------------------------------------------------------------------------------------
+
+### Para editar o site siga as instruções desse link:
+### https://nunocoracao.github.io/blowfish/docs/getting-started/
 
