@@ -53,3 +53,19 @@ blogdown::stop_server() # Cancelar a página do site
 ### Reinicie a sessão do R e corra o código:
 
 blogdown::build_site()
+
+# Use Netlify Drop -------------------------------------------------------------------------------------------------------------------------
+
+### A seguir, vá online para Netlify Drop em https://app.netlify.com/drop. 
+### Pode arrastar e largar a pasta public/ folder do seu visualizador de 
+### ficheiros para a área indicada na página web Netlify, onde diz "Arraste e 
+### largue a pasta de saída do seu site aqui".
+
+### Aguarde alguns segundos para que a Netlify possa distribuir os ficheiros, 
+### e irá atribuir-lhe um subdomínio aleatório do formulário 
+### random-word-12345.netlify.app. Depois do seu site estar em directo, 
+### poderá partilhar o link para o seu novo site de blogdown, se assim o desejar.
+
+### Notará uma declaração de exoneração de responsabilidade de que este sítio 
+### será apagado após 24 horas. É necessário criar uma conta para guardar este 
+### link e manter o seu site em linha.
