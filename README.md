@@ -12,5 +12,6 @@
 4. Criando o site;
 5. Serve site;
 6. Edição do site;
-7. Tornando o site público;
-8. Use Netlify Drop.
+7. Usar blogdown::new_post() para criar novos pots;
+8. Tornando o site público;
+9. Use Netlify Drop.
